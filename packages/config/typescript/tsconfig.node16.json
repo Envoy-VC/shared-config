@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.base.json",
+  "display": "Config Node 16",
+  "docs": "https://github.com/Envoy-VC/shared-config/tree/main/packages/config",
+
+  "compilerOptions": {
+    "lib": ["es2021"],
+    "module": "node16",
+    "target": "es2021",
+    "moduleResolution": "node16"
+  }
+}
