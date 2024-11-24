@@ -1,5 +1,26 @@
 # @envoy1084/style-guide
 
+## 0.1.1
+
+### Patch Changes
+
+- 4df5459: ## Changes
+
+  - Add Flat Eslint Config alongside base eslint config.
+
+  ## Usage
+
+  ```js
+  import sharedConfig from '@envoy1084/style-guide/eslint/flat';
+
+  export default [
+    ...sharedConfig.configs.recommended,
+    ...sharedConfig.configs.typescript,
+    ...sharedConfig.configs.react,
+    ...sharedConfig.configs.next,
+  ];
+  ```
+
 ## 0.1.0
 
 ### Minor Changes
